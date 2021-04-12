@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Alert,Prompt,Confirm</title>
+</head>
+<body>
+</body>
+<script>
+    //Alert in browser javascript does not return anything
+    let a=  alert("This is a message"); //popups aate hai na uske liye
+    console.log(a);  //isse output undefined aata hai
+
+//     let name=prompt("What is your name","Guest");///default(guest) bhi nhi doge toh chaloge(srf chrome me chalega)//jb browser kholege naam poochega jo cgeez daaloge woh name me store ho jaega 
+//     console.log(name); //toh jo upar naam daala woh print ho jaega
+let age=prompt("What is your age");
+if(age<18)
+{
+    alert("You are not allowed to enter");
+}
+else
+{
+    alert("You are allowed");
+}
+
+let deletePost=confirm("Do you really want to delete? ");
+console.log(deletePost); //isse true ya false milega mtlb upar ki line execute hui to ek window aegi agr ok kr dia toh true aa jaega warna false
+
+</script>
+</html>

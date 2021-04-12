@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var str="Samiksha has done batchelors in Electronics and Communication";
+    var pos=str.indexOf('has'); //gives first occurence
+    console.log(pos);
+    var a=str.lastIndexOf("on"); //gives last occurence
+    console.log(a);
+
+var substr=str.slice(1,10); //Substring from string
+console.log(substr);
+var sub=str.substring(1,10); //does same work as slice only difference is slice can also take negative values
+console.log(sub)
+var str1=str.substr(1,10); //it attracts the length ignoring spacing it shows the string ouput is amiksha ha
+console.log(str1);
+var string="I am Samiksha Sahu";
+var replaced=string.replace('I','MY'); //replaces the String (bt note original String remains same)
+console.log(replaced);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+var newString=str.concat(' NewString'); //concatenates the string but + can also be used for concatenation
+console.log(newString);
+var strWithSpaces="   thi  contains    white spcaes  ";
+console.log(strWithSpaces.trim()); //trims spaces before and after the String
+
+var char3=str.charAt(3);
+console.log(char3);
+var char2=str.charCodeAt(3); //gives UTF-16 code of that character at the given position
+console.log(char2);
+console.log(str[3]);
+</script>
+</html>

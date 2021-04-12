@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and Objects</title>
+</head>
+<body>
+    <div class="container">Simple si html</div> 
+    <!-- Shortcut for above is div.container and press enter -->
+    <script>
+        let myVar=34;
+        let myVar2="string";   
+        let myVar3=true;
+        let myVar4=null;
+        let myVar5=undefined;
+      //How to make object
+      let employee=
+      {
+          name:"samiksha",
+          salary: 100,
+          hobby : "playing badminton",
+
+      }
+      console.log(employee);
+      console.log(employee.salary); //this same can be checked on the console by typing  employee.salary
+     //or
+     console.log(employee['salary']);
+      //Array is a special type of object therefore can be done in one more way
+      let names=[1,2,true,"Samiksha",undefined];
+      console.log(names);
+      console.log(names[4]);
+
+      //Another method
+      let names1=new Array(10,3,2,false,"sahu",null);
+      console.log(names1);
+      console.log(names1.length);
+
+      //For sorting the array
+      names1=names1.sort();
+console.log(names1);
+//to push something but note it is pushed at the end
+names1.push("HI");
+console.log(names1);
+//to make a array of let size 23
+let arr=new Array(23); //this will make an arry with 23 undefined elements
+console.log(arr);
+    </script>
+</body>
+</html>

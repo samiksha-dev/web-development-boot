@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<style>
+    #btn
+    {
+        padding: auto;
+        background-color: aqua;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <!-- <Type of Events
+    1.Click
+    2.contextMenu
+    3.mouseover/mouseout
+    4.mousedown/mouseup
+    5.mousemove -->
+    <div class="container">
+        <h1>This is my Heading</h1>
+        <p id="para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam expedita aliquam corrupti possimus ipsa, adipisci
+             ullam repellendus modi quaerat
+             minus cumque eum aspernatur exercitationem cum eius non labore sint fuga?
+        </p>
+        </div>
+6.focus
+7.submit
+<button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+        function toggleHide()
+        {
+            let btn=document.getElementById('btn');
+            let para=document.getElementById('para');
+            if(para.style.display!='none')
+            {
+                para.style.display='none';
+            }
+            else{
+                para.style.display='block';
+            }
+
+        }
+    </script>
+</body>
+</html>

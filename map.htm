@@ -1,0 +1,39 @@
+<!-- <script>
+    const oldarr=['Miss','Samiksha','Sahu'];
+    const newarr=oldarr.map(function(cvalue)
+    {
+return cvalue;
+
+    });
+
+    console.log(newarr);
+</script> -->
+<!-- Method-2 -->
+<!-- <script>
+    const oldarr=['Miss','Samiksha','Sahu'];
+    const newarr=oldarr.map(function(cvalue,i)
+    {
+return i+ ":" + cvalue;
+
+    });
+
+    console.log(newarr);
+</script> -->
+
+<!-- More Example -->
+<script>
+    const studDate=[
+        {id:1,name:'Samiksha',Degree:'B.tech'},
+        {id:2,name:'Shivangee',Degree:'B.tech'},
+        {id:3,name:'Pragati',Degree:'B.tech'},
+    ];
+    
+
+    const newData=studDate.map((cvalue)=>
+    {
+        return `My name is ${cvalue.name} My degree is ${cvalue.Degree}`;
+        //return cvlaue iise poora object aaega
+    }
+    );
+    console.log(newData);
+</script>

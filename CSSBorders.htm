@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Border and backgrounds</title>
+    <style>
+        #firstpara{
+            background-color: red;
+            height: 107px;
+            width: 450px;
+           /* border-width: 4px;
+            border-color: pink;
+            border-style: dashed;
+            border-radius: 11px;  method -1*/
+            /*method-2*/
+            border:2px solid green;
+        }
+        #secondpara{
+            background-color: aqua;
+            border-top: 2px solid blue;
+            border-bottom: 2px solid red;
+            border-left:2px solid black;
+            border-right: 2px solid pink;
+            border-bottom-left-radius: 2px;
+        }
+        #thirdpara{
+            background-image: url("https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            border: 2px solid black;
+            background-repeat: repeat-x;  /*repeat-x will repeat the image in x axis and repeat-y will repeat the imaage in y axis*/
+            background-position: center top;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is Samiksha</h3>
+    <p id="firstpara">
+        this is a paragraph
+    </p>
+    <h3>This is second heading</h3>
+    <p id="secondpara">
+        this is second para
+    </p>
+    <h4>this is a picture</h4>
+    <p id="thirdpara">
+        this  is a demo of image
+    </p>
+</body>
+</html>
